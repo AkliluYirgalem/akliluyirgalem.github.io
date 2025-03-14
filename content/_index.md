@@ -1,19 +1,29 @@
 ---
 title: Home
-description: "The personal writings and expressions of Grayfox, otherwise known as you too and everyone else. It is a loving and silly place."
+description: "Personal space of Aklilu Yirgalem."
 ---
 <img
-  id="foxy"
-  src="/images/grayf0x.jpg"
-  alt="A foxy face">
+  id="aklil"
+  src="/images/akliluyirgalem.jpg"
+  alt="Aklilu Yirgalem">
 
-## Welcome, friend
+## Bonjour, fren
 
-### :purple_heart: :earth_africa: :purple_heart:
+<div class="social-icons">
+  <a href="https://github.com/AkliluYirgalem" target="_blank" rel="noopener">
+    <img src="./images/github-icon.png" alt="GitHub">
+  </a>
+  
+  <a href="https://www.linkedin.com/in/AkliluYirgalem" target="_blank" rel="noopener">
+    <img src="./images/linkedin-icon.png" alt="LinkedIn">
+  </a>
 
-Born in [The Abyss](https://en.wikipedia.org/wiki/Edmonton), **Grayfox** - also known as Zerkle Snorp - has spent over two decades fiddling with things on the Internet. Today he does nothing, so stop asking.
+  <a href="https://twitter.com/AkliluYirgalem" target="_blank" rel="noopener">
+    <img src="./images/twitter-icon.png" alt="Twitter">
+  </a>
+</div>
 
-Their greatest joys are darkness and its quietudes.
+Hi, My name is Aklilu, i'm a passioned  Machine Learning Engineer, currrently studying Information Technology at Mekelle University.
 
 <img src="/images/partywizard.gif">
 

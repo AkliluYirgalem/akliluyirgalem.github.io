@@ -199,7 +199,9 @@ blockquote {
 .content-wrapper {
   padding: 0px 12px 0px 12px;
 }
-#foxy {
+#aklil {
+  width: 204px;
+  height: 204px;
   min-width: 40px;
   float: right;
   padding: 10px;
@@ -235,5 +237,21 @@ blockquote {
         max-height: 70vh; /* 设置最大高度为视口的70% */
         overflow-y: auto; /* 添加垂直滚动条 */
     }
+}
+
+.social-icons {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.social-icons img {
+  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+  width: 25px; 
+  height: 25px;
+}
+
+.social-icons img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2); /* Adjust icon brightness on hover */
 }
 

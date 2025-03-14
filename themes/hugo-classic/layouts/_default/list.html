@@ -1,5 +1,15 @@
 {{ partial "header.html" . }}
 
+{{if not .IsHome }}
+<div class="article-meta">
+  <p class="terms">
+    {{ range .Site.Taxonomies.tags }}
+      <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})
+    {{ end }}
+  </p>
+</div>
+{{end}}
+
 <div class="content-wrapper">
 {{if not .IsHome }}
   <h1>{{ .Title | markdownify }}</h1>
