@@ -14,7 +14,7 @@ description: "Personal space of Aklilu Yirgalem."
     <img src="./images/github-icon.png" alt="GitHub">
   </a>
   
-  <a href="https://www.linkedin.com/in/AkliluYirgalem" target="_blank" rel="noopener">
+  <a href="https://linkedin.com/in/AkliluYirgalem" target="_blank" rel="noopener">
     <img src="./images/linkedin-icon.png" alt="LinkedIn">
   </a>
 

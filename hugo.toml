@@ -31,6 +31,11 @@ name = "Blog"
 url = "/blog/"
 weight = 1
 
+[[menu.main]]
+name = "Projects"
+url = "/project/"
+weight = 1
+
 [[menu.feed]]
 name = "Subscribe"
 url = "/index.xml"
@@ -38,4 +43,4 @@ url = "/index.xml"
 [params]
 custom_css = ["css/theme-override.css"]
 description = "A simple, minimal blog for those who love text."
-footer = "Powered by [Hugo](https://gohugo.io) and [Classic](https://github.com/goodroot/hugo-classic)"
+footer = "Powered by [Hugo](https://gohugo.io) & [Classic](https://github.com/goodroot/hugo-classic)"

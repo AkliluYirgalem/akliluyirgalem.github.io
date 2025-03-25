@@ -1,96 +1,15 @@
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #393E41;
-        color: white;
-    }
 
-    blockquote {
-      background: #393E41;
-    }
-
-    a {
-      color: #EBC3DB;
-    }
-
-    header {
-      background: #393E41;
-      border-bottom: 2px dotted #EBC3DB;
-
-    }
-
-    .article-meta, .menu a {
-      background: #393E41;
-      color: white;
-    }
-
-    table {
-      margin: auto;
-      border-top: 1px solid #666;
-      border-bottom: 1px solid #666;
-    }
-    table thead th { border-bottom: 1px solid #666; }
-    th, td { padding: 5px; }
-    tr:nth-child(even) { background: #666 }
-
+a {
+  color: #EBC3DB;
+  text-decoration: none;
 }
 
-
-/* Light mode */
-@media (prefers-color-scheme: light) {
-    blockquote {
-      background: #f9f9f9;
-    }
-
-    a {
-      color: #613DC1;
-    }
-
-    header {
-      background: #613DC1;
-    }
-
-    .article-meta, .menu a {
-      background: #E8DBC5;
-      color: #000;
-    }
-
-    table {
-      margin: auto;
-      border-top: 1px solid #666;
-      border-bottom: 1px solid #666;
-    }
-    table thead th { border-bottom: 1px solid #ddd; }
-    th, td { padding: 5px; }
-    tr:nth-child(even) { background: #eee }
-
-}
-
-
-body {
-  max-width: 800px;
-  margin: auto;
-  padding: .2em;
-  line-height: 1.5em;
+blockquote {
+  background: #393E41;
 }
 
 h1 {
   line-height: 1.5em;
-}
-
-/* Table of Contents, if wanted
-
-Add to yaml:
-
-output:
-  blogdown::html_page:
-    toc: true
-
-    */
-
-#TableOfContents, #TOC {
-  border: 1px solid #eee;
-  border-radius: 5px;
 }
 
 /* Header and Footer */
@@ -109,47 +28,9 @@ output:
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 
-.pull-left {
-    float: left
-}
-.pull-right {
-    float: right
-}
-
-a {
-  text-decoration: none;
-}
 
 a:hover {
   text-decoration: underline;
-}
-
-/* Adjust background at your leisure! */
-header {
-    position: relative;
-    width: 100%;
-    height: 1.75rem;
-    font-size: 1rem;
-}
-
-header ul,
-header ol {
-    margin: 0;
-    padding: 0;
-    list-style: none
-}
-header nav {
-    padding: 0 0.5rem
-}
-
-header a {
-    color: #fff;
-    line-height: 1.75rem;
-    padding: 0 0.5rem
-}
-header a:hover,
-header .current a {
-    color: #fff
 }
 
 /* Code Boxes */
@@ -176,22 +57,7 @@ img, iframe, video {
   margin-right: auto;
 }
 
-main {
-  hyphens: auto;
-  max-width: 650px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.7em;
-  hyphens: auto;
-  display: block;
-  font-size: 1.1em;
-}
-main a {
-  font-weight: bold;
-}
-
 blockquote {
-
   border-left: 5px solid #ccc;
   padding: 3px 1em 3px;
 }
@@ -199,6 +65,7 @@ blockquote {
 .content-wrapper {
   padding: 0px 12px 0px 12px;
 }
+
 #aklil {
   width: 204px;
   height: 204px;
@@ -206,10 +73,6 @@ blockquote {
   float: right;
   padding: 10px;
   display: block;
-}
-
-
-#table-of-contents {
 }
 
 /* Small devices, phones */

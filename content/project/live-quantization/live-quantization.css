@@ -1,0 +1,134 @@
+a {
+    color: #EBC3DB;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    text-align: center;
+    color: white;
+}
+
+.matrix-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.matrix {
+    background-color: white;
+    border-radius: 8px;
+    flex: 5;
+}
+
+.matrix-title {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.type {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ebc3db;
+}
+
+select {
+    font-size: 14px;
+    border: 2px solid #ebc3db;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    text-align: center;
+}
+
+.error {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #f749b2;
+}
+
+td {
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-right: 0.45px;
+    padding-left: 0.45px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.result-cell {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    color: black;
+    font-size: 14.5px;
+}
+
+.operations {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 0px;
+}
+
+button {
+    background-color: #ebc3db;
+    color: black;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.separator {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+}
+
+.explanation {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    td {
+        width: 40px;
+        height: 30px;
+    }
+    
+    input {
+        padding: 2px;
+        font-size: 12px;
+    }
+    
+    .matrix {
+        padding: 10px;
+    }
+    
+    button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}

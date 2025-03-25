@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 
 {{if not .IsHome }}
+{{if not (eq "Projects" .Title)}}
 <div class="article-meta">
   <p class="terms">
     {{ range .Site.Taxonomies.tags }}
@@ -8,6 +9,7 @@
     {{ end }}
   </p>
 </div>
+{{end}}
 {{end}}
 
 <div class="content-wrapper">
