@@ -59,7 +59,13 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Show contents of public directory
+            run: |
+              echo "Listing contents of public directory:"
+              ls -alh ./public
+              echo "Recursive list (tree-style):"
+              find ./public        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
