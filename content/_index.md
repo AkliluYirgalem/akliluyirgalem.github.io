@@ -23,7 +23,8 @@ description: "Personal space of Aklilu Yirgalem."
   </a>
 </div>
 
-Hi, My name is Aklilu, i'm a passioned  Machine Learning Engineer, currrently studying Information Technology at Mekelle University.
+**Hey, I'm Aklilu.**  
+I build things with code—mostly in **machine learning**, **Web3**, and **finance**.
 
 <img src="/images/partywizard.gif">
 
