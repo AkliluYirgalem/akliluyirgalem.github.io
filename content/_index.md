@@ -24,7 +24,7 @@ description: "Personal space of Aklilu Yirgalem."
 </div>
 
 **Hey, I'm Aklilu.**  
-I build things with code—mostly in **machine learning**, **Web3**, and **finance**.
+I build things with code, and i enjoy it!.
 
 <img src="/images/partywizard.gif">
 
